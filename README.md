@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=120&section=header"/>
+
 # 🚀 Projeto de Circuitos com ESP32
 
 ---
@@ -77,3 +79,5 @@ Este projeto foi uma jornada prática e colaborativa no mundo da eletrônica e d
 - [Mohammad Salim](https://www.linkedin.com/in/mohammad-salim-197481320/?originalSubdomain=br)
 - [Kauan de Assis](https://www.linkedin.com/in/kauan-leonel-1bba3a31b/)
 - [THAYLA AMORIM MATEUS](https://www.linkedin.com/in/thayla-amorim-mateus-3353692a9/)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=120&section=footer"/>
