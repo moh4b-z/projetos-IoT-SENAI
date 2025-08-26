@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-breadboard-half",
+      "id": "bb1",
+      "top": -70.2,
+      "left": 127.6,
+      "attrs": { "color": "#eeefed" }
+    },
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 182.4,
+      "left": 292.84,
+      "attrs": { "env": "micropython-20231227-v1.22.0" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 12.8,
+      "left": -85.6,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 61.55,
+      "left": 249.6,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 61.55,
+      "left": 374.4,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -13.2, "left": 503, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.2", "bb1:bn.25", "black", [ "v0", "h48" ] ],
+    [ "bb1:bp.14", "bb1:17b.j", "black", [ "v0" ] ],
+    [ "esp:23", "bb1:24b.j", "yellow", [ "h9.6", "v-67.2", "h-28.8" ] ],
+    [ "esp:3V3", "bb1:1b.j", "red", [ "h0" ] ],
+    [ "bb1:1b.f", "ldr1:VCC", "red", [ "v0" ] ],
+    [ "ldr1:GND", "bb1:11b.f", "black", [ "h0" ] ],
+    [ "r1:1", "bb1:11b.h", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:17b.h", "", [ "$bb" ] ],
+    [ "r2:1", "bb1:24b.h", "", [ "$bb" ] ],
+    [ "r2:2", "bb1:30b.h", "", [ "$bb" ] ],
+    [ "bb1:bn.21", "led1:C", "black", [ "v-20.5", "h49.6" ] ],
+    [ "bb1:30b.f", "led1:A", "magenta", [ "v0", "h67.2", "v-86.4", "h86.4", "v96" ] ]
+  ],
+  "dependencies": {}
+}
