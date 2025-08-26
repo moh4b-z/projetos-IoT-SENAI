@@ -75,6 +75,5 @@ Este projeto foi uma jornada prática e colaborativa no mundo da eletrônica e d
 ## Autores
 
 - [Mohammad Salim](https://www.linkedin.com/in/mohammad-salim-197481320/?originalSubdomain=br)
-- [Kauan de Assis](https://www.linkedin.com/in/mohammad-salim-197481320/?originalSubdomain=br)
-
-- [THAYLA AMORIM MATEUS](https://www.linkedin.com/in/mohammad-salim-197481320/?originalSubdomain=br)
+- [Kauan de Assis](https://www.linkedin.com/in/kauan-leonel-1bba3a31b/)
+- [THAYLA AMORIM MATEUS](https://www.linkedin.com/in/thayla-amorim-mateus-3353692a9/)
