@@ -62,9 +62,6 @@ Durante o desenvolvimento desta atividade, aprendemos a:
 - Prototipar virtualmente com o **Wokwi** antes da montagem física.  
 - Trabalhar em equipe e dividir responsabilidades técnicas com eficiência.
 
----
-
-> 📸 Adicionaremos imagens dos circuitos montados, diagramas e os códigos utilizados para cada sensor.
 
 ---
 
@@ -81,3 +78,4 @@ Este projeto foi uma jornada prática e colaborativa no mundo da eletrônica e d
 - [THAYLA AMORIM MATEUS](https://www.linkedin.com/in/thayla-amorim-mateus-3353692a9/)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=120&section=footer"/>
+
